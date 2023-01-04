@@ -11,3 +11,8 @@ First it uses CoingeckoAPI to retireve the relevant data, then it focus only in 
 Then it transforms the Timestamp into a column called Date, mapping unix_to_datetime to convert it into readable date.
 After that, Price data can now be grouped by Date, which allows us to pinpoint the data needed for the candlesticks.
 Finally, plotly is used to create the chart.
+
+PRICERETRIEVERML
+sets a function getMercadoLibrePrice, which uses Beautiful Soup to scan a product's HTML for its defined price in the code.
+Then the function price is set, which calls getMercadoLibrePrice and asks for a product's URL as second argument, finally 
+printing it's price.
