@@ -24,6 +24,9 @@ It sets a function getMercadoLibrePrice, which uses Beautiful Soup to scan a pro
 Then the function price is set, which calls getMercadoLibrePrice and asks for a product's URL as second argument, finally 
 printing it's price.
 
+![image](https://user-images.githubusercontent.com/111796101/211202722-0743c305-c5c8-411b-a41e-27ecade80496.png)
+
+
 
 ## MACD
 It plots a MACD indicator (see https://www.investopedia.com/terms/m/macd.asp for further reference on the indicator) for a 
