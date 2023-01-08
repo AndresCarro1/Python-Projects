@@ -3,7 +3,7 @@
 > Note: for each project you will find in the .py all the libraries needed for the scripts to run.
 
 ## GUESS THE NUMBER
-is a simple guess the number game, where the player can try up to 6 times to get the randomly generated number right.
+It is a simple guess the number game, where the player can try up to 6 times to get the randomly generated number right.
 It is basically and if/else loop of 6 iterations, broken if the number is guessed.
 If a character other than an integer is submitted, the rule violation is notified and the game is terminated.
 
@@ -12,7 +12,7 @@ If a character other than an integer is submitted, the rule violation is notifie
 
 
 ## BTC CANDLESTICKS
-displays the candlestick chart of Bitcoin prices (expressed in US Dolars) for the past 30 days.
+It displays the candlestick chart of Bitcoin prices (expressed in US Dolars) for the past 30 days.
 First it uses CoingeckoAPI to retireve the relevant data, then it focus only in Prices and turns it into a Pandas DataFrame.
 Then it transforms the Timestamp into a column called Date, mapping unix_to_datetime to convert it into readable date.
 After that, Price data can now be grouped by Date, which allows us to pinpoint the data needed for the candlesticks.
@@ -20,13 +20,13 @@ Finally, plotly is used to create the chart.![BTC Candlesticks Example](https://
 
 
 ## PRICERETRIEVERML
-sets a function getMercadoLibrePrice, which uses Beautiful Soup to scan a product's HTML for its defined price in the code.
+It sets a function getMercadoLibrePrice, which uses Beautiful Soup to scan a product's HTML for its defined price in the code.
 Then the function price is set, which calls getMercadoLibrePrice and asks for a product's URL as second argument, finally 
 printing it's price.
 
 
 ## MACD
-plots a MACD indicator (see https://www.investopedia.com/terms/m/macd.asp for further reference on the indicator) for a 
+It plots a MACD indicator (see https://www.investopedia.com/terms/m/macd.asp for further reference on the indicator) for a 
 requested stock, from a requested date to present time. It asks for a ticker, which is a company ID acronym commonly 
 used in Stock Markets (eg for Tesla is TSLA), and a base date and then builds the indicator components (exponential
 moving averages, Signal and MACD) based on pricing data collected from Yahoo Finance. Based on the tecnical rules for the
@@ -38,7 +38,7 @@ error message is returned.![MACD Apple Example](https://user-images.githubuserco
 
 
 ## CORRELATION HEATMAP
-takes a set of tickers, from a requested starting date, and connects to Yahoo Finance to retrieve its' daily closing prices
+It takes a set of tickers, from a requested starting date, and connects to Yahoo Finance to retrieve its' daily closing prices
 (ignoring empty values, for example on holidays or weekends for stocks). After that, a correlation between all tickers' daily
 price changes is performed. Finally, the rest is setting up the heatmap (plotting the relationships, the colors, axis labels. 
 This chart is useful to analyze in which way different prices (stocks, cryptos, ETFs, raw materials, etc) a related, which could
