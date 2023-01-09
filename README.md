@@ -23,7 +23,7 @@ Finally, plotly is used to create the chart.![BTC Candlesticks Example](https://
 It sets a function getMercadoLibrePrice, which uses Beautiful Soup to scan a product's HTML for its defined price in the code.
 User must paste the article's URL when asked to, and it's price is returned. If it is not returned by any means, an error message is returned.
 
-![image](https://user-images.githubusercontent.com/111796101/211202722-0743c305-c5c8-411b-a41e-27ecade80496.png)
+![image](https://user-images.githubusercontent.com/111796101/211294745-6bd1a933-d244-4a71-ba4b-681e0f6a5369.png)
 
 
 
